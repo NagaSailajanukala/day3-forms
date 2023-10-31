@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Types</title>
+    <!-- embedded CSS -->
+    <style type="text/css">
+        h1{
+            color: rgb(205, 50, 63);
+            background-color:aqua;
+        }
+    </style>
+    <!-- h1 targets external CSS -->
+    <link rel="stylesheet" href="./styles.css"> 
+</head>
+<body>
+    <!-- h1 overrides embedded CSS with inline CSS -->
+    <h1 style="color:blue;background-color: red; ">CSS Example1</h1><br><hr/>
+     <h1>CSS Example2</h1><br><hr/>
+    <!-- h1 targets external CSS -->
+    <h1>CSS Example3</h1><br><hr/>
+    <h1 class="class1">CSS Example4</h1><br><hr>
+    <h1 id="id1">CSS Example5</h1>
+</body>
+</html>

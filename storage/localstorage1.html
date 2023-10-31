@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>local storage</title>
+</head>
+<body>
+    <section id="data1">
+
+    </section>
+    <script>
+        <p>The No.of Clicks :<span id="count"></span></p>
+        if (typeof Storage) {
+            localStorage.setItem("s1", "Ram")
+            document.getElementById("data1").innerHTML = localStorage.getItem("s1")
+            if(localStorage.clickCount)
+            localStorage.clickCount=Number(localStorage.clickCount)+1;
+            else
+            localStorage.clickCount=1;
+        document.getElementById("count").innerHTML=localStorage.getItem(clickCount);
+        }
+        else {
+            documet.getElementById("data1").innerHTML = "No browser support"
+        }
+    </script>
+</body>
+</html>

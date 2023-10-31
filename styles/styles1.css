@@ -1,0 +1,42 @@
+/* p{ 
+    background-color:rgb(178, 22, 22);
+}*/
+/* descendant selector */
+section p{
+    background-color: blue;
+    border:1px solid greenyellow;
+}
+section{
+    border-bottom-color: blueviolet;
+    border-top-color: rgb(144, 148, 7);
+    border-style: dashed;
+    border-width:2px;
+    padding-left: 4px;
+}
+/* child selector */
+div  > p{
+    background-color: aquamarine;
+}
+section + p{
+    border:3px dashed chocolate;
+}
+/* pseudo class selector*/
+a:hover{
+    background-color:pink;
+    color:red;
+}
+a[title="test3-example"]{
+    background-color:yellow;
+    color:red;
+}
+a[title*="example"]
+{
+    background-color: violet;
+    color:brown;
+}
+a[title="org"]{
+    color:chartreuse;
+}
+ a[title$="org"]{ 
+     color:blue;
+ } 

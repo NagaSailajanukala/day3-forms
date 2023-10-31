@@ -1,0 +1,30 @@
+section h2{
+    color:blue;
+}
+section p{
+    padding-left: 2px;
+    padding-top: 3px;
+    border-style: dotted;
+
+    /*border-color: blueviolet;
+    border-top-style: dashed;
+    border-top-color: darkmagenta;
+    border-width:4px;*/
+}
+section > p:last-child{
+    color:rgb(42, 177, 24);
+}
+.section1 > h2:first-child{
+    border-style: solid;
+}
+section{
+    padding:5px;
+    border-style:solid;
+    border-radius: 5px;
+    margin-top:5px;
+    width:250px
+}
+.section3{
+    position:absolute;
+    width:300px
+}

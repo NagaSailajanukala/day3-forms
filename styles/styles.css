@@ -1,0 +1,21 @@
+h1{
+    color:red;
+    background-color: yellow;
+}
+/* class can be a style holder */
+.class1{
+    color:violet;
+    background-color: black;
+}
+/* ID can also be use for style */
+#id1{
+    color:bisque;
+    background-color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: aqua;
+}
+*{
+    background-color: blueviolet;
+}

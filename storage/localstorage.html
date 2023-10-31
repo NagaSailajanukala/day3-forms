@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local storage</title>
+</head>
+
+<body>
+    <section id="data-section">
+
+    </section>
+    <script>
+        if (typeof Storage) {
+            localStorage.setItem("student", "Sai")
+            document.getElementById("data-section").innerHTML = localStorage.getItem("student")
+        }
+        else {
+            documet.getElementById("student").innerHTML = "No browser support"
+        }
+    </script>
+</body>
+
+</html>

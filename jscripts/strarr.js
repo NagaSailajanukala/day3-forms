@@ -1,0 +1,14 @@
+let teams=['abc','def','ghi'];
+//console.log(teams.length);
+// console.log(teams[1]);
+teams.pop();
+console.log(teams);
+console.log(teams.join(','));
+let result=teams.join('-');
+result=teams.push('xyz');
+console.log(teams);
+result=teams.concat('rst','fst');
+console.log(teams);
+console.log(result);
+let age=33;
+console.log(age,age+3,`present age is ${age}`);
